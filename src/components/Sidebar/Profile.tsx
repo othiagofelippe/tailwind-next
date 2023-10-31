@@ -6,7 +6,9 @@ export function Profile() {
     <div className="grid grid-cols-profile items-center gap-3">
       <Image
         src="https://github.com/othiagofelippe.png"
-        className="h-10  w-10   rounded-full"
+        className="h-10  w-10 rounded-full"
+        width={40}
+        height={40}
         alt=""
       />
 
